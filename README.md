@@ -15,3 +15,5 @@ My own golang playground
    - `echo $PATH | grep "$(go env GOPATH)/bin"`
 
 ## Visual Studio Code support
+
+![image](https://github.com/Lantero/go-lessons/assets/3510723/e5cfdd2d-5aa5-40c5-be05-2e5d2d30b08a)

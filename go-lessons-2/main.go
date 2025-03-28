@@ -1,12 +1,14 @@
-// Add two numbers with a simple function signature
+// Basic variable declarations
 package main
 
 import "fmt"
 
-func add(x int, y int) int {
-	return x + y
-}
+var c, python, java bool
+var i, j int = 1, 2
+var k int
 
 func main() {
-	fmt.Println(add(42, 13))
+	var c, python, java = true, false, "no!"
+	l := 3
+	fmt.Println(i, j, k, l, c, python, java)
 }

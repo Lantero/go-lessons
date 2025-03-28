@@ -1,4 +1,4 @@
-// Basic variable declarations
+// Variable declarations
 package main
 
 import "fmt"

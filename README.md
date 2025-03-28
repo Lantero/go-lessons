@@ -1,23 +1,30 @@
 # go-lessons
 
-My own golang playground
+Welcome to my personal Golang playground.
 
-## 1. How to install/upgrade go
+## 1. How to install or upgrade go
 
-1. Uninstall existing version: `sudo rm -rf /usr/local/go`.
+1. Follow [official instructions](https://go.dev/doc/install) to remove old installation, then
+   download and unpack the new one.
 
-2. Download TGZ from https://go.dev/dl/.
+2. Make sure your `PATH` contains:
 
-3. Extract new version: `sudo tar -C /usr/local -xzf /home/carlos/Downloads/go1.22.1.linux-amd64.tar.gz`.
+   - `/usr/local/go/bin` -> Go binaries themselves i.e. `go` and `gofmt`.
 
-4. Make sure your `PATH` contains `/usr/local/go/bin` and `/home/carlos/go`:
-   - `echo $PATH | grep "/usr/local/go/bin"`
+   - `/home/$USER/go` -> CLI tools or packages you might install via `go install` from your local
+     user i.e. `bin` and `pkg` directories.
 
 ## 2. Visual Studio Code support
 
-![image](https://github.com/Lantero/go-lessons/assets/3510723/e5cfdd2d-5aa5-40c5-be05-2e5d2d30b08a)
+Just install the official extension:
 
-## 3. Initializing a project
+- [Marketplace](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+
+- [Repository](https://github.com/golang/vscode-go)
+
+## 3. How to manage a go project
+
+### 3.1. Create a new project
 
 1. Create a folder in your repository, like `mkdir project`.
 

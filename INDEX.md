@@ -5,3 +5,6 @@
 - **go-lessons-3**: Base types and their zero values
 - **go-lessons-4**: Type conversions
 - **go-lessons-5**: Constant declarations
+- **go-lessons-6**: For loops
+- **go-lessons-7**: If, else and switch
+- **go-lessons-8**: Defer statements

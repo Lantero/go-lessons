@@ -38,14 +38,16 @@ Just install the official extension:
 
 ### 2.1. Create a new project
 
-1. Create a folder in your repository. Taking this repo as example: `mkdir examples/<name>`.
+1. Create a folder in your repository. Taking this repo as example:
+   `mkdir examples/go-lessons-<number>`.
 
-2. Once inside that directory, run `go mod init github.com/lantero/go-lessons/examples/<name>`.
+2. Once inside that directory, run
+   `go mod init github.com/lantero/go-lessons/examples/go-lessons-<number>`.
 
 ### 2.2. Compile your code
 
 1. From the directory that contains your `go.mod`, run `go install`.
 
-2. The binary will be in `$(go env GOPATH)/bin/<name>`, with `<name>` being the project name.
+2. The binary will be in `$(go env GOPATH)/bin/go-lessons-<number>`.
 
-3. You can check the self-documentation of your project with `go doc <name>`.
+3. You can check the self-documentation of your project with `go doc go-lessons-<number>`.

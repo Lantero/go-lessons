@@ -1,5 +1,5 @@
-EXAMPLE_FOLDERS := $(shell find ./examples -mindepth 1 -maxdepth 1 -type d -name "go-lessons-*" | sort)
-EXAMPLE_FILES := $(shell find $(EXAMPLE_FOLDERS) -type f | sort)
+EXAMPLE_FOLDERS := $(shell find ./examples -mindepth 1 -maxdepth 1 -type d -name "go-lessons-*" | sort -t '-' -k 3n)
+EXAMPLE_FILES := $(shell find $(EXAMPLE_FOLDERS) -type f | sort -t '-' -k 3n)
 
 
 .PHONY: install

@@ -13,3 +13,4 @@
 - [examples/go-lessons-9/main.go](examples/go-lessons-9/main.go): Pointers
 - [examples/go-lessons-10/main.go](examples/go-lessons-10/main.go): Structs
 - [examples/go-lessons-11/main.go](examples/go-lessons-11/main.go): Arrays and slices
+- [examples/go-lessons-12/main.go](examples/go-lessons-12/main.go): Maps

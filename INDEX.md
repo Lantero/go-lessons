@@ -16,3 +16,5 @@
 - [examples/go-lessons-12/main.go](examples/go-lessons-12/main.go): Maps
 - [examples/go-lessons-13/main.go](examples/go-lessons-13/main.go): Methods
 - [examples/go-lessons-14/main.go](examples/go-lessons-14/main.go): Interfaces
+- [examples/go-lessons-15/main.go](examples/go-lessons-15/main.go): Type assertions and type switches
+- [examples/go-lessons-16/main.go](examples/go-lessons-16/main.go): Common Go interfaces

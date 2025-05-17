@@ -14,3 +14,4 @@
 - [examples/go-lessons-10/main.go](examples/go-lessons-10/main.go): Structs
 - [examples/go-lessons-11/main.go](examples/go-lessons-11/main.go): Arrays and slices
 - [examples/go-lessons-12/main.go](examples/go-lessons-12/main.go): Maps
+- [examples/go-lessons-13/main.go](examples/go-lessons-13/main.go): Methods

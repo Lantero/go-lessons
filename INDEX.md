@@ -18,3 +18,5 @@
 - [examples/go-lessons-14/main.go](examples/go-lessons-14/main.go): Interfaces
 - [examples/go-lessons-15/main.go](examples/go-lessons-15/main.go): Type assertions and type switches
 - [examples/go-lessons-16/main.go](examples/go-lessons-16/main.go): Common Go interfaces
+- [examples/go-lessons-17/main.go](examples/go-lessons-17/main.go): Generics
+- [examples/go-lessons-18/main.go](examples/go-lessons-18/main.go): Go routines 101
